@@ -52,3 +52,9 @@ C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows
 C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\runtimes\win-x64\native\krb5_64.dll
 C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\james\source\repos\Espana_Finals\Espana_Finals\obj\Debug\net9.0-windows\Espana_Finals.attendancePage.resources
+C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\AForge.dll
+C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\AForge.Video.dll
+C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\AForge.Video.DirectShow.dll
+C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\AForge.Controls.dll
+C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\AForge.Imaging.dll
+C:\Users\james\source\repos\Espana_Finals\Espana_Finals\bin\Debug\net9.0-windows\AForge.Math.dll

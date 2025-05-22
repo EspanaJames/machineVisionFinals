@@ -51,6 +51,22 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Controls": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.3.0, )"

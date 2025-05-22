@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "vq5UJ7aTxJI=",
+  "dgSpecHash": "2ID44wh9inE=",
   "success": true,
   "projectFilePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\james\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\aforge.controls\\2.2.5\\aforge.controls.2.2.5.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",
@@ -55,5 +61,78 @@
     "C:\\Users\\james\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "libraryId": "AForge",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge.Controls 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "libraryId": "AForge.Controls",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge.Imaging 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "libraryId": "AForge.Imaging",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge.Math 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "libraryId": "AForge.Math",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge.Video 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "libraryId": "AForge.Video",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge.Video.DirectShow 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "libraryId": "AForge.Video.DirectShow",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
 }

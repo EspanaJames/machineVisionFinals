@@ -69,5 +69,15 @@ namespace Espana_Finals {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] haarcascade_frontalface_default {
+            get {
+                object obj = ResourceManager.GetObject("haarcascade_frontalface_default", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

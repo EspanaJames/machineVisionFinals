@@ -4,10 +4,12 @@ using AForge.Video.DirectShow;
 using OpenCvSharp;
 using OpenCvSharp.Extensions;
 using System;
+using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace Espana_Finals
 {
@@ -18,6 +20,12 @@ namespace Espana_Finals
         private CascadeClassifier faceDetector;
         private bool isCameraRunning = false;
         private string eventNameHolder;
+        private DataBase db = new DataBase();
+
+        private List<Mat> knownFaces = new List<Mat>();
+        private List<(string IdCard, string FullName)> knownLabels = new List<(string, string)>();
+        private Dictionary<string, DateTime> recentRecognitions = new Dictionary<string, DateTime>();
+        private const int RecognitionCooldownSeconds = 5;
 
         public attendancePage(string eventName)
         {
@@ -26,6 +34,8 @@ namespace Espana_Finals
             var cascadePath = Path.GetTempFileName();
             File.WriteAllBytes(cascadePath, cascadeBytes);
             faceDetector = new CascadeClassifier(cascadePath);
+            LoadKnownFacesFromDatabase();
+            LoadCascadeAndStartCamera();
             eventNameHolder = eventName;
             siticoneLabel4.Text = eventNameHolder;
         }
@@ -38,6 +48,39 @@ namespace Espana_Finals
             videoSource.NewFrame += VideoSource_NewFrame;
             videoSource.Start();
             isCameraRunning = true;
+        }
+
+        private void LoadCascadeAndStartCamera()
+        {
+            var cascadeBytes = Espana_Finals.Resource1.frontalFile;
+            var cascadePath = Path.GetTempFileName();
+            File.WriteAllBytes(cascadePath, cascadeBytes);
+            faceDetector = new CascadeClassifier(cascadePath);
+            StartCamera();
+        }
+
+        private void LoadKnownFacesFromDatabase()
+        {
+            string query = "SELECT idCard, firstName, lastName, picture FROM students";
+            DataTable dt = db.ExecuteSelectQuery(query);
+
+            foreach (DataRow row in dt.Rows)
+            {
+                try
+                {
+                    byte[] imageBytes = (byte[])row["picture"];
+                    using (var ms = new MemoryStream(imageBytes))
+                    {
+                        Bitmap bmp = new Bitmap(ms);
+                        Mat faceMat = BitmapConverter.ToMat(bmp);
+                        Cv2.CvtColor(faceMat, faceMat, ColorConversionCodes.BGR2GRAY);
+                        knownFaces.Add(faceMat);
+                        string fullName = $"{row["firstName"]} {row["lastName"]}";
+                        knownLabels.Add((row["idCard"].ToString(), fullName));
+                    }
+                }
+                catch { }
+            }
         }
 
         private void StopCamera()
@@ -54,17 +97,51 @@ namespace Espana_Finals
         {
             using (Bitmap rawFrame = (Bitmap)eventArgs.Frame.Clone())
             {
-                Mat mat = BitmapConverter.ToMat(rawFrame);
+                Mat frame = BitmapConverter.ToMat(rawFrame);
                 Mat gray = new Mat();
-                Cv2.CvtColor(mat, gray, ColorConversionCodes.BGR2GRAY);
-                Cv2.EqualizeHist(gray, gray);
-                Rect[] faces = faceDetector.DetectMultiScale(gray, 1.1, 5);
-                foreach (var face in faces)
+                Cv2.CvtColor(frame, gray, ColorConversionCodes.BGR2GRAY);
+                var faces = faceDetector.DetectMultiScale(gray, 1.1, 5);
+
+                foreach (var rect in faces)
                 {
-                    Cv2.Rectangle(mat, face, Scalar.Red, 2);
-                    break;
+                    Mat detectedFace = new Mat(gray, rect);
+                    Cv2.Resize(detectedFace, detectedFace, new OpenCvSharp.Size(100, 100));
+
+                    string matchedName = "Unknown";
+                    string matchedId = "";
+                    double minDist = double.MaxValue;
+
+                    for (int i = 0; i < knownFaces.Count; i++)
+                    {
+                        double dist = Cv2.Norm(knownFaces[i], detectedFace);
+                        if (dist < minDist)
+                        {
+                            minDist = dist;
+                            matchedName = knownLabels[i].FullName;
+                            matchedId = knownLabels[i].IdCard;
+                        }
+                    }
+
+                    if (minDist < 3000)
+                    {
+                        string key = matchedId;
+                        if (!recentRecognitions.ContainsKey(key) || (DateTime.Now - recentRecognitions[key]).TotalSeconds > RecognitionCooldownSeconds)
+                        {
+                            recentRecognitions[key] = DateTime.Now;
+                            Console.WriteLine($"Recognized: {matchedName} ({matchedId})");
+                        }
+                        Cv2.Rectangle(frame, rect, Scalar.Red, 2);
+                        Cv2.PutText(frame, $"{matchedName} ({matchedId})", new OpenCvSharp.Point(rect.X, rect.Y - 10), HersheyFonts.HersheySimplex, 0.6, Scalar.Red, 2);
+                    }
+                    else
+                    {
+                        Cv2.Rectangle(frame, rect, Scalar.Blue, 2);
+                        Cv2.PutText(frame, "Unknown", new OpenCvSharp.Point(rect.X, rect.Y - 10), HersheyFonts.HersheySimplex, 0.6, Scalar.Blue, 2);
+                    }
                 }
-                Bitmap processedFrame = BitmapConverter.ToBitmap(mat);
+
+                Bitmap processedFrame = BitmapConverter.ToBitmap(frame);
+
                 if (machineVisionBox.InvokeRequired)
                 {
                     machineVisionBox.Invoke(new MethodInvoker(() =>
@@ -79,6 +156,16 @@ namespace Espana_Finals
                     machineVisionBox.Image = processedFrame;
                 }
             }
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            if (videoSource != null && videoSource.IsRunning)
+            {
+                videoSource.SignalToStop();
+                videoSource.WaitForStop();
+            }
+            base.OnFormClosing(e);
         }
 
         private void attendancePage_FormClosing(object sender, FormClosingEventArgs e)

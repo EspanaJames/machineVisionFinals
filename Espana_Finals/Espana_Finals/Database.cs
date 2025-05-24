@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data;
 
 namespace Espana_Finals
 {
@@ -51,7 +52,34 @@ namespace Espana_Finals
                 throw new InvalidOperationException("Connection not open.");
             }
         }
+        public DataTable ExecuteSelectQuery(string query)
+        {
+            DataTable dt = new DataTable();
 
+            try
+            {
+                if (OpenSQLConnection())
+                {
+                    using (MySqlCommand cmd = new MySqlCommand(query, mySqlConnection))
+                    {
+                        using (MySqlDataAdapter adapter = new MySqlDataAdapter(cmd))
+                        {
+                            adapter.Fill(dt);
+                        }
+                    }
+                }
+            }
+            catch (MySqlException ex)
+            {
+                Console.WriteLine("SQL Error: " + ex.Message);
+            }
+            finally
+            {
+                CloseSQLConnection();
+            }
+
+            return dt;
+        }
         public bool ExecuteQueryWithParameters(string query, Dictionary<string, object> parameters)
         {
             try

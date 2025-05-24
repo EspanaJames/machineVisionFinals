@@ -2585,11 +2585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectUniqueName": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "projectName": "Espana_Finals",
-      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\obj\\",
+      "outputPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

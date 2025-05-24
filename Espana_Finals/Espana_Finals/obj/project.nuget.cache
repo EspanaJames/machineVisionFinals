@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ID44wh9inE=",
+  "dgSpecHash": "xIPh9eMan1s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+  "projectFilePath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\james\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\aforge.controls\\2.2.5\\aforge.controls.2.2.5.nupkg.sha512",
@@ -66,9 +66,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'AForge 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "filePath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "libraryId": "AForge",
       "targetGraphs": [
         "net9.0-windows7.0"
@@ -78,9 +78,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'AForge.Controls 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "filePath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "libraryId": "AForge.Controls",
       "targetGraphs": [
         "net9.0-windows7.0"
@@ -90,9 +90,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'AForge.Imaging 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "filePath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "libraryId": "AForge.Imaging",
       "targetGraphs": [
         "net9.0-windows7.0"
@@ -102,9 +102,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'AForge.Math 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "filePath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "libraryId": "AForge.Math",
       "targetGraphs": [
         "net9.0-windows7.0"
@@ -114,9 +114,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'AForge.Video 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "filePath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "libraryId": "AForge.Video",
       "targetGraphs": [
         "net9.0-windows7.0"
@@ -126,9 +126,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'AForge.Video.DirectShow 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "projectPath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
+      "filePath": "C:\\Users\\james\\COMPUTER ENGINEERING 3\\machine vision projects\\Espana_Finals\\Espana_Finals\\Espana_Finals.csproj",
       "libraryId": "AForge.Video.DirectShow",
       "targetGraphs": [
         "net9.0-windows7.0"

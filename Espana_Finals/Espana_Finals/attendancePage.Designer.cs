@@ -187,7 +187,6 @@
             siticoneButton4.TooltipText = null;
             siticoneButton4.UseAdvancedRendering = true;
             siticoneButton4.UseParticles = false;
-            siticoneButton4.Click += siticoneButton4_Click;
             // 
             // machineVisionBox
             // 
@@ -428,7 +427,6 @@
             siticoneButton1.TooltipText = null;
             siticoneButton1.UseAdvancedRendering = true;
             siticoneButton1.UseParticles = false;
-            siticoneButton1.Click += siticoneButton1_Click;
             // 
             // siticoneLabel4
             // 

@@ -68,11 +68,12 @@ namespace Espana_Finals
             }
 
             Bitmap currentFrame = new Bitmap(machineVisionBox.Image);
-            Mat mat = BitmapConverter.ToMat(currentFrame);
-            Cv2.CvtColor(mat, mat, ColorConversionCodes.BGR2GRAY);
-            Cv2.EqualizeHist(mat, mat);
+            Mat colorMat = BitmapConverter.ToMat(currentFrame);
+            Mat gray = new Mat();
+            Cv2.CvtColor(colorMat, gray, ColorConversionCodes.BGR2GRAY);
+            Cv2.EqualizeHist(gray, gray);
 
-            var faces = faceDetector.DetectMultiScale(mat, 1.1, 5);
+            var faces = faceDetector.DetectMultiScale(gray, 1.1, 5);
             if (faces.Length == 0)
             {
                 MessageBox.Show("No face detected.");
@@ -80,7 +81,6 @@ namespace Espana_Finals
             }
 
             var largestFace = faces.OrderByDescending(f => f.Width * f.Height).First();
-            Mat colorMat = BitmapConverter.ToMat(new Bitmap(machineVisionBox.Image));
             Mat colorFace = new Mat(colorMat, largestFace);
             Cv2.Resize(colorFace, colorFace, new OpenCvSharp.Size(100, 100));
 

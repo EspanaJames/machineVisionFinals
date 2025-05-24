@@ -7,6 +7,9 @@
     <Compile Update="attendancePage.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="populateDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="landingPage.cs">
       <SubType>Form</SubType>
     </Compile>

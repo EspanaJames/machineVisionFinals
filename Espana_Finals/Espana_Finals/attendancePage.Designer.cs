@@ -30,16 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(attendancePage));
             siticoneAdvancedPanel1 = new SiticoneNetCoreUI.SiticoneAdvancedPanel();
-            nameLabel = new SiticoneNetCoreUI.SiticoneLabel();
+            siticoneButton4 = new SiticoneNetCoreUI.SiticoneButton();
             machineVisionBox = new PictureBox();
             siticoneButton3 = new SiticoneNetCoreUI.SiticoneButton();
             siticoneButton2 = new SiticoneNetCoreUI.SiticoneButton();
-            siticoneLabel1 = new SiticoneNetCoreUI.SiticoneLabel();
             siticoneButton1 = new SiticoneNetCoreUI.SiticoneButton();
             siticoneLabel4 = new SiticoneNetCoreUI.SiticoneLabel();
-            attendanceBox = new SiticoneNetCoreUI.SiticoneTextBox();
             siticonePictureBox1 = new SiticoneNetCoreUI.SiticonePictureBox();
-            userPictureBox = new SiticoneNetCoreUI.SiticonePictureBox();
             siticoneAdvancedPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)machineVisionBox).BeginInit();
             SuspendLayout();
@@ -64,16 +61,13 @@
             siticoneAdvancedPanel1.BottomLeftRadius = 5;
             siticoneAdvancedPanel1.BottomRightRadius = 5;
             siticoneAdvancedPanel1.ContentAlignmentCustom = ContentAlignment.MiddleCenter;
-            siticoneAdvancedPanel1.Controls.Add(nameLabel);
+            siticoneAdvancedPanel1.Controls.Add(siticoneButton4);
             siticoneAdvancedPanel1.Controls.Add(machineVisionBox);
             siticoneAdvancedPanel1.Controls.Add(siticoneButton3);
             siticoneAdvancedPanel1.Controls.Add(siticoneButton2);
-            siticoneAdvancedPanel1.Controls.Add(siticoneLabel1);
             siticoneAdvancedPanel1.Controls.Add(siticoneButton1);
             siticoneAdvancedPanel1.Controls.Add(siticoneLabel4);
-            siticoneAdvancedPanel1.Controls.Add(attendanceBox);
             siticoneAdvancedPanel1.Controls.Add(siticonePictureBox1);
-            siticoneAdvancedPanel1.Controls.Add(userPictureBox);
             siticoneAdvancedPanel1.CornerPadding = new Padding(5);
             siticoneAdvancedPanel1.DisabledBackColor = Color.Empty;
             siticoneAdvancedPanel1.DisabledBorderColor = Color.Empty;
@@ -117,16 +111,83 @@
             siticoneAdvancedPanel1.TopLeftRadius = 5;
             siticoneAdvancedPanel1.TopRightRadius = 5;
             // 
-            // nameLabel
+            // siticoneButton4
             // 
-            nameLabel.BackColor = Color.Transparent;
-            nameLabel.Font = new Font("Segoe UI Variable Small Semibol", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            nameLabel.ForeColor = Color.WhiteSmoke;
-            nameLabel.Location = new Point(1149, 763);
-            nameLabel.Name = "nameLabel";
-            nameLabel.Size = new Size(173, 35);
-            nameLabel.TabIndex = 15;
-            nameLabel.Text = "name";
+            siticoneButton4.AccessibleDescription = "The default button control that accept input though the mouse, touch and keyboard";
+            siticoneButton4.AccessibleName = "SET ATTENDANCE";
+            siticoneButton4.AutoSizeBasedOnText = false;
+            siticoneButton4.BackColor = Color.Transparent;
+            siticoneButton4.BadgeBackColor = Color.Transparent;
+            siticoneButton4.BadgeFont = new Font("Segoe UI", 8F, FontStyle.Bold);
+            siticoneButton4.BadgeValue = 0;
+            siticoneButton4.BadgeValueForeColor = Color.White;
+            siticoneButton4.BorderColor = Color.PaleTurquoise;
+            siticoneButton4.BorderWidth = 2;
+            siticoneButton4.ButtonBackColor = Color.Transparent;
+            siticoneButton4.ButtonImage = null;
+            siticoneButton4.ButtonTextLeftPadding = 0;
+            siticoneButton4.CanBeep = true;
+            siticoneButton4.CanGlow = true;
+            siticoneButton4.CanShake = true;
+            siticoneButton4.ContextMenuStripEx = null;
+            siticoneButton4.CornerRadiusBottomLeft = 4;
+            siticoneButton4.CornerRadiusBottomRight = 4;
+            siticoneButton4.CornerRadiusTopLeft = 4;
+            siticoneButton4.CornerRadiusTopRight = 4;
+            siticoneButton4.CustomCursor = Cursors.Default;
+            siticoneButton4.DisabledTextColor = Color.FromArgb(150, 150, 150);
+            siticoneButton4.EnableLongPress = false;
+            siticoneButton4.EnablePressAnimation = true;
+            siticoneButton4.EnableRippleEffect = true;
+            siticoneButton4.EnableShadow = true;
+            siticoneButton4.EnableTextWrapping = false;
+            siticoneButton4.Font = new Font("Segoe UI Semibold", 10.2F);
+            siticoneButton4.GlowColor = Color.FromArgb(50, 100, 200, 255);
+            siticoneButton4.GlowIntensity = 100;
+            siticoneButton4.GlowRadius = 20F;
+            siticoneButton4.GradientBackground = true;
+            siticoneButton4.GradientColor = Color.Transparent;
+            siticoneButton4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            siticoneButton4.HintText = null;
+            siticoneButton4.HoverBackColor = Color.FromArgb(27, 133, 184);
+            siticoneButton4.HoverFontStyle = FontStyle.Regular;
+            siticoneButton4.HoverTextColor = Color.White;
+            siticoneButton4.HoverTransitionDuration = 250;
+            siticoneButton4.ImageAlign = ContentAlignment.MiddleLeft;
+            siticoneButton4.ImagePadding = 5;
+            siticoneButton4.ImageSize = new Size(16, 16);
+            siticoneButton4.IsRadial = false;
+            siticoneButton4.IsReadOnly = false;
+            siticoneButton4.IsToggleButton = false;
+            siticoneButton4.IsToggled = false;
+            siticoneButton4.Location = new Point(1541, 750);
+            siticoneButton4.LongPressDurationMS = 1000;
+            siticoneButton4.Name = "siticoneButton4";
+            siticoneButton4.NormalFontStyle = FontStyle.Regular;
+            siticoneButton4.ParticleColor = Color.FromArgb(200, 200, 200);
+            siticoneButton4.ParticleCount = 15;
+            siticoneButton4.PressAnimationScale = 0.97F;
+            siticoneButton4.PressedBackColor = Color.FromArgb(15, 76, 117);
+            siticoneButton4.PressedFontStyle = FontStyle.Regular;
+            siticoneButton4.PressTransitionDuration = 150;
+            siticoneButton4.ReadOnlyTextColor = Color.FromArgb(100, 100, 100);
+            siticoneButton4.RippleColor = Color.FromArgb(128, 255, 255, 255);
+            siticoneButton4.RippleOpacity = 0.3F;
+            siticoneButton4.RippleRadiusMultiplier = 0.6F;
+            siticoneButton4.ShadowBlur = 5;
+            siticoneButton4.ShadowColor = Color.FromArgb(50, 0, 64, 128);
+            siticoneButton4.ShadowOffset = new Point(2, 2);
+            siticoneButton4.ShakeDuration = 500;
+            siticoneButton4.ShakeIntensity = 5;
+            siticoneButton4.Size = new Size(245, 102);
+            siticoneButton4.TabIndex = 16;
+            siticoneButton4.Text = "SET ATTENDANCE";
+            siticoneButton4.TextAlign = ContentAlignment.MiddleCenter;
+            siticoneButton4.TextColor = Color.White;
+            siticoneButton4.TooltipText = null;
+            siticoneButton4.UseAdvancedRendering = true;
+            siticoneButton4.UseParticles = false;
+            siticoneButton4.Click += siticoneButton4_Click;
             // 
             // machineVisionBox
             // 
@@ -186,7 +247,7 @@
             siticoneButton3.IsReadOnly = false;
             siticoneButton3.IsToggleButton = false;
             siticoneButton3.IsToggled = false;
-            siticoneButton3.Location = new Point(604, 750);
+            siticoneButton3.Location = new Point(1041, 750);
             siticoneButton3.LongPressDurationMS = 1000;
             siticoneButton3.Name = "siticoneButton3";
             siticoneButton3.NormalFontStyle = FontStyle.Regular;
@@ -263,7 +324,7 @@
             siticoneButton2.IsReadOnly = false;
             siticoneButton2.IsToggleButton = false;
             siticoneButton2.IsToggled = false;
-            siticoneButton2.Location = new Point(784, 750);
+            siticoneButton2.Location = new Point(1199, 750);
             siticoneButton2.LongPressDurationMS = 1000;
             siticoneButton2.Name = "siticoneButton2";
             siticoneButton2.NormalFontStyle = FontStyle.Regular;
@@ -291,21 +352,10 @@
             siticoneButton2.UseParticles = false;
             siticoneButton2.Click += siticoneButton2_Click;
             // 
-            // siticoneLabel1
-            // 
-            siticoneLabel1.BackColor = Color.Transparent;
-            siticoneLabel1.Font = new Font("Segoe UI Variable Display", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            siticoneLabel1.ForeColor = Color.WhiteSmoke;
-            siticoneLabel1.Location = new Point(23, 496);
-            siticoneLabel1.Name = "siticoneLabel1";
-            siticoneLabel1.Size = new Size(467, 152);
-            siticoneLabel1.TabIndex = 10;
-            siticoneLabel1.Text = "EVEN DETAILS";
-            // 
             // siticoneButton1
             // 
             siticoneButton1.AccessibleDescription = "The default button control that accept input though the mouse, touch and keyboard";
-            siticoneButton1.AccessibleName = "";
+            siticoneButton1.AccessibleName = "FACE DETECT";
             siticoneButton1.AutoSizeBasedOnText = false;
             siticoneButton1.BackColor = Color.Transparent;
             siticoneButton1.BadgeBackColor = Color.Transparent;
@@ -351,7 +401,7 @@
             siticoneButton1.IsReadOnly = false;
             siticoneButton1.IsToggleButton = false;
             siticoneButton1.IsToggled = false;
-            siticoneButton1.Location = new Point(955, 750);
+            siticoneButton1.Location = new Point(1350, 750);
             siticoneButton1.LongPressDurationMS = 1000;
             siticoneButton1.Name = "siticoneButton1";
             siticoneButton1.NormalFontStyle = FontStyle.Regular;
@@ -370,8 +420,9 @@
             siticoneButton1.ShadowOffset = new Point(2, 2);
             siticoneButton1.ShakeDuration = 500;
             siticoneButton1.ShakeIntensity = 5;
-            siticoneButton1.Size = new Size(117, 102);
+            siticoneButton1.Size = new Size(163, 102);
             siticoneButton1.TabIndex = 7;
+            siticoneButton1.Text = "FACE DETECT";
             siticoneButton1.TextAlign = ContentAlignment.MiddleCenter;
             siticoneButton1.TextColor = Color.White;
             siticoneButton1.TooltipText = null;
@@ -389,65 +440,6 @@
             siticoneLabel4.Size = new Size(278, 51);
             siticoneLabel4.TabIndex = 6;
             siticoneLabel4.Text = "EVENT NAME";
-            // 
-            // attendanceBox
-            // 
-            attendanceBox.AccessibleDescription = "A customizable text input field.";
-            attendanceBox.AccessibleName = "Text Box";
-            attendanceBox.AccessibleRole = AccessibleRole.Text;
-            attendanceBox.BackColor = Color.Transparent;
-            attendanceBox.BlinkCount = 3;
-            attendanceBox.BlinkShadow = true;
-            attendanceBox.BorderColor1 = Color.FromArgb(210, 210, 210);
-            attendanceBox.BorderColor2 = Color.FromArgb(210, 210, 210);
-            attendanceBox.BorderFocusColor1 = Color.FromArgb(33, 150, 243);
-            attendanceBox.BorderFocusColor2 = Color.FromArgb(33, 150, 243);
-            attendanceBox.CanBeep = true;
-            attendanceBox.CanShake = true;
-            attendanceBox.ContinuousBlink = false;
-            attendanceBox.CursorBlinkRate = 500;
-            attendanceBox.CursorColor = Color.Black;
-            attendanceBox.CursorHeight = 26;
-            attendanceBox.CursorOffset = 0;
-            attendanceBox.CursorStyle = SiticoneNetCoreUI.Helpers.DrawingStyle.SiticoneDrawingStyle.Solid;
-            attendanceBox.CursorWidth = 1;
-            attendanceBox.DisabledBackColor = Color.WhiteSmoke;
-            attendanceBox.DisabledBorderColor = Color.LightGray;
-            attendanceBox.DisabledTextColor = Color.Gray;
-            attendanceBox.EnableDropShadow = true;
-            attendanceBox.FillColor1 = Color.FromArgb(230, 230, 230);
-            attendanceBox.FillColor2 = Color.White;
-            attendanceBox.FillGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            attendanceBox.Font = new Font("Segoe UI", 9.5F);
-            attendanceBox.ForeColor = Color.FromArgb(50, 50, 50);
-            attendanceBox.HoverBorderColor1 = Color.Gray;
-            attendanceBox.HoverBorderColor2 = Color.Gray;
-            attendanceBox.IsEnabled = true;
-            attendanceBox.Location = new Point(1149, 811);
-            attendanceBox.MaxLength = 100;
-            attendanceBox.Name = "attendanceBox";
-            attendanceBox.Padding = new Padding(5);
-            attendanceBox.PlaceholderColor = Color.Gray;
-            attendanceBox.PlaceholderText = "Search...";
-            attendanceBox.ReadOnlyBorderColor1 = Color.LightGray;
-            attendanceBox.ReadOnlyBorderColor2 = Color.LightGray;
-            attendanceBox.ReadOnlyFillColor1 = Color.Red;
-            attendanceBox.ReadOnlyFillColor2 = Color.LimeGreen;
-            attendanceBox.ReadOnlyPlaceholderColor = Color.DarkGray;
-            attendanceBox.SelectionBackColor = Color.FromArgb(77, 77, 255);
-            attendanceBox.ShadowAnimationDuration = 1;
-            attendanceBox.ShadowBlur = 10;
-            attendanceBox.ShadowColor = Color.FromArgb(30, 0, 100, 200);
-            attendanceBox.Size = new Size(395, 41);
-            attendanceBox.SolidBorderColor = Color.LightSlateGray;
-            attendanceBox.SolidBorderFocusColor = Color.FromArgb(77, 77, 255);
-            attendanceBox.SolidBorderHoverColor = Color.Gray;
-            attendanceBox.SolidFillColor = Color.White;
-            attendanceBox.TabIndex = 4;
-            attendanceBox.TextPadding = new Padding(13, 1, 13, 1);
-            attendanceBox.UseFillGradient = true;
-            attendanceBox.ValidationErrorMessage = "Invalid input.";
-            attendanceBox.ValidationFunction = null;
             // 
             // siticonePictureBox1
             // 
@@ -492,48 +484,6 @@
             siticonePictureBox1.TabIndex = 3;
             siticonePictureBox1.Text = "siticonePictureBox1";
             // 
-            // userPictureBox
-            // 
-            userPictureBox.BackColor = Color.FromArgb(30, 0, 0, 0);
-            userPictureBox.BorderColor = Color.Black;
-            userPictureBox.BorderWidth = 1;
-            userPictureBox.Brightness = 1F;
-            userPictureBox.Contrast = 1F;
-            userPictureBox.CornerRadius = 0;
-            userPictureBox.DraggingSpeed = 3.15F;
-            userPictureBox.EnableAsyncLoading = false;
-            userPictureBox.EnableCaching = false;
-            userPictureBox.EnableDragDrop = false;
-            userPictureBox.EnableExtendedImageSources = false;
-            userPictureBox.EnableFilters = false;
-            userPictureBox.EnableFlipping = false;
-            userPictureBox.EnableGlow = false;
-            userPictureBox.EnableHighDpiSupport = false;
-            userPictureBox.EnableMouseInteraction = false;
-            userPictureBox.EnablePlaceholder = false;
-            userPictureBox.EnableRotation = false;
-            userPictureBox.EnableShadow = false;
-            userPictureBox.EnableSlideshow = false;
-            userPictureBox.FlipHorizontal = false;
-            userPictureBox.FlipVertical = false;
-            userPictureBox.Grayscale = false;
-            userPictureBox.Image = null;
-            userPictureBox.ImageOpacity = 1F;
-            userPictureBox.Images = (List<Image>)resources.GetObject("userPictureBox.Images");
-            userPictureBox.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
-            userPictureBox.IsCircular = false;
-            userPictureBox.Location = new Point(849, 85);
-            userPictureBox.MaintainAspectRatio = true;
-            userPictureBox.Name = "userPictureBox";
-            userPictureBox.PlaceholderImage = null;
-            userPictureBox.RotationAngle = 0F;
-            userPictureBox.Saturation = 1F;
-            userPictureBox.ShowBorder = true;
-            userPictureBox.Size = new Size(598, 497);
-            userPictureBox.SizeMode = SiticoneNetCoreUI.Helpers.Enum.SiticonePictureBoxSizeMode.StretchImage;
-            userPictureBox.TabIndex = 14;
-            userPictureBox.Text = "siticonePictureBox2";
-            // 
             // attendancePage
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -554,15 +504,13 @@
         #endregion
 
         private SiticoneNetCoreUI.SiticoneAdvancedPanel siticoneAdvancedPanel1;
-        private SiticoneNetCoreUI.SiticoneTextBox attendanceBox;
         private SiticoneNetCoreUI.SiticonePictureBox siticonePictureBox1;
         private SiticoneNetCoreUI.SiticoneLabel siticoneLabel4;
         private SiticoneNetCoreUI.SiticoneButton siticoneButton1;
-        private SiticoneNetCoreUI.SiticoneLabel siticoneLabel1;
         private SiticoneNetCoreUI.SiticoneButton siticoneButton3;
         private SiticoneNetCoreUI.SiticoneButton siticoneButton2;
         private PictureBox machineVisionBox;
-        private SiticoneNetCoreUI.SiticonePictureBox userPictureBox;
-        private SiticoneNetCoreUI.SiticoneLabel nameLabel;
+        private SiticoneNetCoreUI.SiticoneButton siticoneButton4;
+        private PictureBox facePictureBox;
     }
 }

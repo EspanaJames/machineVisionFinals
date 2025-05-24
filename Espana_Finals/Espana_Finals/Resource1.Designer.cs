@@ -73,9 +73,9 @@ namespace Espana_Finals {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] haarcascade_frontalface_default {
+        internal static byte[] frontalFile {
             get {
-                object obj = ResourceManager.GetObject("haarcascade_frontalface_default", resourceCulture);
+                object obj = ResourceManager.GetObject("frontalFile", resourceCulture);
                 return ((byte[])(obj));
             }
         }

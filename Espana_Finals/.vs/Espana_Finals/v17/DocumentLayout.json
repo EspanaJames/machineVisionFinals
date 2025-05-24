@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\james\\source\\repos\\Espana_Finals\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\populatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\populatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\attendancepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\attendancepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\attendancepage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\attendancepage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|C:\\Users\\james\\source\\repos\\Espana_Finals\\espana_finals\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|C:\\Users\\james\\source\\repos\\Espana_Finals\\espana_finals\\attendancepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\attendancepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\attendancepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\attendancepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|C:\\Users\\james\\source\\repos\\Espana_Finals\\espana_finals\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\landingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\landingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\resource1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\resource1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\loginpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\loginpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\populatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\populatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\populatedatabase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\populatedatabase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|C:\\Users\\james\\source\\repos\\Espana_Finals\\espana_finals\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|C:\\Users\\james\\source\\repos\\Espana_Finals\\espana_finals\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\attendancepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\attendancepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\haarcascade_frontalface_default.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\haarcascade_frontalface_default.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|solutionrelative:espana_finals\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7DD6846-8BE1-4EE1-B078-D26BCC074DB4}|Espana_Finals\\Espana_Finals.csproj|c:\\users\\james\\source\\repos\\espana_finals\\espana_finals\\landingpage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -74,8 +74,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "landingPage.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\landingPage.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.cs",
+              "RelativeToolTip": "Espana_Finals\\landingPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:26:55.424Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -90,162 +104,152 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "attendancePage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\attendancePage.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.cs [Design]",
-              "RelativeToolTip": "Espana_Finals\\attendancePage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T22:27:32.943Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "attendancePage.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\attendancePage.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.cs",
-              "RelativeToolTip": "Espana_Finals\\attendancePage.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAACQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T22:34:19.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Form1.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\Form1.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Form1.cs [Design]",
-              "RelativeToolTip": "Espana_Finals\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:19:46.891Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Program.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\Program.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Program.cs",
-              "RelativeToolTip": "Espana_Finals\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:19:55.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "attendancePage.resx",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.resx",
-              "RelativeDocumentMoniker": "Espana_Finals\\attendancePage.resx",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.resx",
-              "RelativeToolTip": "Espana_Finals\\attendancePage.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-21T23:04:11.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Database.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\Database.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Database.cs",
-              "RelativeToolTip": "Espana_Finals\\Database.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T21:53:48.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "attendancePage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.Designer.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\attendancePage.Designer.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.Designer.cs",
-              "RelativeToolTip": "Espana_Finals\\attendancePage.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T22:44:52.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "landingPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.cs",
               "RelativeDocumentMoniker": "Espana_Finals\\landingPage.cs",
               "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.cs [Design]",
               "RelativeToolTip": "Espana_Finals\\landingPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:28:02.509Z"
+              "WhenOpened": "2025-05-23T01:26:39.511Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "landingPage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.Designer.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\landingPage.Designer.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.Designer.cs",
-              "RelativeToolTip": "Espana_Finals\\landingPage.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "attendancePage.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\attendancePage.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.cs",
+              "RelativeToolTip": "Espana_Finals\\attendancePage.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T22:21:23.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "loginPage.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\loginPage.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.cs",
-              "RelativeToolTip": "Espana_Finals\\loginPage.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAIBJwKAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T19:03:59.062Z",
+              "WhenOpened": "2025-05-21T22:34:19.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "loginPage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.Designer.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\loginPage.Designer.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.Designer.cs",
-              "RelativeToolTip": "Espana_Finals\\loginPage.Designer.cs",
-              "ViewState": "AgIAAEgCAAAAAAAAAAAewCkCAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "populateDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\populateDatabase.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\populateDatabase.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\populateDatabase.cs",
+              "RelativeToolTip": "Espana_Finals\\populateDatabase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T22:02:52.736Z"
+              "WhenOpened": "2025-05-24T15:44:32.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "Resource1.resx",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Resource1.resx",
+              "RelativeDocumentMoniker": "Espana_Finals\\Resource1.resx",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Resource1.resx",
+              "RelativeToolTip": "Espana_Finals\\Resource1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-22T16:07:52.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "populateDatabase.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\populateDatabase.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\populateDatabase.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\populateDatabase.cs [Design]",
+              "RelativeToolTip": "Espana_Finals\\populateDatabase.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:48:02.057Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "populateDatabase.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\populateDatabase.Designer.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\populateDatabase.Designer.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\populateDatabase.Designer.cs",
+              "RelativeToolTip": "Espana_Finals\\populateDatabase.Designer.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAmwLgBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:45:26.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "loginPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.cs",
               "RelativeDocumentMoniker": "Espana_Finals\\loginPage.cs",
               "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.cs [Design]",
               "RelativeToolTip": "Espana_Finals\\loginPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:58:16.375Z"
+              "WhenOpened": "2025-05-23T01:44:58.181Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Database.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\Database.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Database.cs",
+              "RelativeToolTip": "Espana_Finals\\Database.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:24:46.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Form1.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\Form1.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\Form1.cs [Design]",
+              "RelativeToolTip": "Espana_Finals\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:08:33.993Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "attendancePage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.Designer.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\attendancePage.Designer.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\attendancePage.Designer.cs",
+              "RelativeToolTip": "Espana_Finals\\attendancePage.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:49:04.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "haarcascade_frontalface_default.xml",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\haarcascade_frontalface_default.xml",
+              "RelativeDocumentMoniker": "Espana_Finals\\haarcascade_frontalface_default.xml",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\haarcascade_frontalface_default.xml",
+              "RelativeToolTip": "Espana_Finals\\haarcascade_frontalface_default.xml",
+              "ViewState": "AgIAAOSBAAAAAAAAAADwvyKCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-22T16:08:33.369Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "landingPage.cs",
-              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.cs",
-              "RelativeDocumentMoniker": "Espana_Finals\\landingPage.cs",
-              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.cs",
-              "RelativeToolTip": "Espana_Finals\\landingPage.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCQAAAAYAAAAAAAAAA==",
+              "Title": "loginPage.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.cs",
+              "RelativeDocumentMoniker": "Espana_Finals\\loginPage.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\loginPage.cs",
+              "RelativeToolTip": "Espana_Finals\\loginPage.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T22:45:17.503Z"
+              "WhenOpened": "2025-05-21T19:03:59.062Z"
             },
             {
               "$type": "Document",
@@ -256,7 +260,8 @@
               "ToolTip": "C:\\Users\\james\\source\\repos\\Espana_Finals\\Espana_Finals\\landingPage.resx",
               "RelativeToolTip": "Espana_Finals\\landingPage.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-21T22:21:22.889Z"
+              "WhenOpened": "2025-05-21T22:21:22.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
